@@ -55,7 +55,7 @@ ROOT_URLCONF = 'weather.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'G:\UDEMY\python3Course\webpython\djangoproject\weathergit\weather\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
