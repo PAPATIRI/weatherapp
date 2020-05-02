@@ -1,5 +1,7 @@
 {% extends 'base.html' %}<br />
 {% block content %}<br />
+
+{% if zipcode %} {{zipcode}} {% endif %}<br />
 {% if api %} <br />
 {% if api == "Error..." %} there was an error, please try again... {% else %}
 <div class="jumbotron {{category_color}}">
